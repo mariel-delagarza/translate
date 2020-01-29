@@ -6,7 +6,7 @@ class App extends React.Component {
   onLanguageChange = language => {
     this.setState({ language });
   }
-  
+
   render() {
     return (
       <div className="ui container">
